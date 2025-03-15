@@ -27,6 +27,12 @@ const portafolio = () => {
   const handleBackClick = () => {
     navigate(-1); // Navigate to the previous page
   };
+
+  const handleClickCaso1 = () => {
+    console.log("Caso1");
+    navigate("/Caso1");
+  };
+
   const handleLink1 = () => {
     window.open("https://l1nq.com/FigmaDesktopPrototipeInsomnia", "_blank");
   };
@@ -102,7 +108,7 @@ const portafolio = () => {
           <div className="textoInsonmia5" onClick={handleLink2}>
             https://l1nq.com/FigmaProtot...
           </div>
-          <div className="ver1">
+          <div className="ver1" onClick={handleClickCaso1}>
             <div className="ver1Text">Ver Trabajo</div>
           </div>
         </div>

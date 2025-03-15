@@ -1,0 +1,106 @@
+.text1 {
+  /* Sitio web adaptable para Cine Insomnia */
+
+  position: absolute;
+  width: 609px;
+  height: 90px;
+  left: 68px;
+  top: 188px;
+
+  /* Titulos */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+
+  color: #ffffff;
+}
+
+.group79 {
+  /* Group 79 */
+
+  position: absolute;
+  width: 539px;
+  height: 132px;
+  left: 67px;
+  top: 322px;
+}
+
+.text2 {
+  /* Mis responsabilidades */
+
+  position: absolute;
+  width: 263px;
+  height: 23px;
+  left: 74px;
+  top: 322px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.text3 {
+  /* Investigación y estudio de usuarios. Bosquejado y prototipado. Flujo de usuario y arquitectura de la información. Diseño de interacciones. Diseño Visual. */
+
+  position: absolute;
+  width: 539px;
+  height: 100px;
+  right: 649px;
+  top: 354px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.caso1img49 {
+  /* image 49 */
+
+  position: absolute;
+  width: 423.04px;
+  height: 237.85px;
+  left: 751.07px;
+  top: 226.35px;
+
+  background: url(image.png);
+}
+
+.tv {
+  /* —Pngtree—tv screen material_7085071 1 */
+
+  position: absolute;
+  width: 484.67px;
+  height: 332.92px;
+  left: 717px;
+  top: 196px;
+}
+
+.text4 {
+  /* El Problema */
+
+  position: absolute;
+  width: 143px;
+  height: 23px;
+  left: 76px;
+  top: 476px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+}

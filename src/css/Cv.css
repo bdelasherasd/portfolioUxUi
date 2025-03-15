@@ -1,0 +1,37 @@
+.cv {
+  /* CV */
+
+  position: relative;
+  width: 482px;
+  height: 522px;
+
+  background: #000000;
+  box-shadow: 0px 6px 3.7px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.image55 {
+  /* image 55 */
+
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  left: 460px;
+  top: 20px;
+
+  background: url(.png), url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+}
+
+.image53 {
+  /* image 53 */
+
+  position: absolute;
+  width: 392px;
+  height: 492px;
+  left: 65px;
+  top: 65px;
+
+  background: url(image.png);
+}

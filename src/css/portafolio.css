@@ -1,0 +1,767 @@
+.arrowBack {
+  /* Portafolio */
+
+  position: relative;
+  width: 1280px;
+  height: 832px;
+
+  /* Fondo */
+  background: linear-gradient(
+    194.83deg,
+    #030102 13.3%,
+    #1e1d1d 47.98%,
+    #8a8a8a 89.53%
+  );
+}
+
+.iconArrowBack {
+  /* icon */
+
+  position: absolute;
+  left: 16.67%;
+  right: 16.67%;
+  top: 16.67%;
+  bottom: 16.67%;
+
+  background: #ffffff;
+}
+
+.portafolio2 {
+  /* Portafolio */
+
+  position: absolute;
+  width: 167px;
+  height: 33px;
+  left: 57px;
+  top: 111px;
+
+  /* Titulos 2 */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.back-arrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.portfolio-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.view-work-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.view-work-button:hover {
+  background-color: #0056b3;
+}
+
+.RectAngle27 {
+  /* Rectangle 27 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 359px;
+  height: 621px;
+  left: 49px;
+  top: 172px;
+
+  /* Fondo 2 */
+  background: linear-gradient(161.72deg, #4a4a4a 27.41%, #b0b0b0 87.58%);
+  border: 1px solid #000000;
+  box-shadow: 5px -8px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.frame4 {
+  /* Frame 4 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 293px;
+  height: 60px;
+  left: 82px;
+  top: 697px;
+
+  background: linear-gradient(258.57deg, #f55600 -33.03%, #103e84 91.48%);
+  border: 4px solid #ffffff;
+  box-shadow: 4px -6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.group76 {
+  /* Group 76 */
+
+  position: absolute;
+  width: 180px;
+  height: 123.64px;
+  left: 90px;
+  top: 185px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.textoGrupo93 {
+  /* Perfil de usuario digital Arquitectura de información Bosquejado a papel y digital Estudios de usabilidad Prototipado de baja y alta fidelidad */
+
+  position: absolute;
+  width: 327px;
+  height: 105px;
+  left: 44px;
+  top: 420px;
+
+  /* Cuerpo 2 */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.imagetv {
+  /* —Pngtree—tv screen material_7085071 1 */
+
+  position: absolute;
+  width: 180px;
+  height: 123.64px;
+  left: 90px;
+  top: 185px;
+
+  /* background: url(—Pngtree—tv screen material_7085071.png); */
+}
+
+.image49 {
+  /* image 49 */
+
+  position: absolute;
+  width: 157.11px;
+  height: 88.33px;
+  left: 102.65px;
+  top: 196.27px;
+
+  background: url(image.png);
+}
+
+.image50 {
+  /* image 50 */
+
+  position: absolute;
+  width: 35px;
+  height: 74px;
+  left: 318px;
+  top: 267px;
+
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+  border-radius: 5px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.image51 {
+  /* image 51 */
+
+  position: absolute;
+  width: 35px;
+  height: 74px;
+  left: 318px;
+  top: 362px;
+
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+  border-radius: 5px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.textoinsomnia {
+  /* Sitio web adaptable para Cine Insomnia */
+
+  position: absolute;
+  width: 203px;
+  height: 75px;
+  left: 90px;
+  top: 322px;
+
+  /* Encabezado */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
+
+.textoinsomnia2 {
+  /* Prototipo hifi Versión escritorio */
+
+  position: absolute;
+  width: 274px;
+  height: 40px;
+  left: 77px;
+  top: 538px;
+
+  /* Cuerpo */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+
+  border: 0px solid #000000;
+}
+
+.textoInsomnia3 {
+  /* https://l1nq.com/FigmaDesktopPrototipeInsomnia */
+
+  position: absolute;
+  width: 293px;
+  height: 18px;
+  left: 77px;
+  top: 598px;
+
+  /* Cuerpo 2 */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  border: 0px solid #000000;
+  cursor: pointer;
+}
+
+.textoInsonmia4 {
+  /* Prototipo hifi Versión móvil */
+
+  position: absolute;
+  width: 274px;
+  height: 40px;
+  left: 77px;
+  top: 608px;
+
+  /* Cuerpo */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+
+  border: 0px solid #000000;
+}
+
+.textoInsonmia5 {
+  /* https://encr.pw/FigmaPrototipeMobileVersion */
+
+  position: absolute;
+  width: 293px;
+  height: 18px;
+  left: 77px;
+  top: 668px;
+
+  /* Cuerpo 2 */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  border: 0px solid #000000;
+  cursor: pointer;
+}
+
+flechaAtras {
+  /* arrow_back */
+
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 60px;
+  top: 24px;
+}
+
+.RectAngle27_2 {
+  /* Rectangle 27 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 359px;
+  height: 621px;
+  left: 459px;
+  top: 172px;
+
+  /* Fondo 2 */
+  background: linear-gradient(161.72deg, #4a4a4a 27.41%, #b0b0b0 87.58%);
+  border: 1px solid #000000;
+  box-shadow: 5px -8px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.image61 {
+  /* image 61 */
+
+  position: absolute;
+  width: 86px;
+  height: 182px;
+  left: 489px;
+  top: 190px;
+
+  background: url(image.png);
+  border-radius: 8px;
+}
+
+.image60 {
+  /* image 60 */
+
+  position: absolute;
+  width: 86px;
+  height: 184px;
+  left: 596px;
+  top: 190px;
+
+  background: url(image.png);
+  border-radius: 7px;
+}
+
+.imageCaso {
+  /* Case Study BarfChile - Bernardo de las Heras 1 */
+
+  position: absolute;
+  width: 86px;
+  height: 182px;
+  left: 703px;
+  top: 190px;
+
+  /* background: url(Case Study BarfChile - Bernardo de las Heras.png); */
+  border-radius: 8px;
+}
+
+.titBarf {
+  /* App Móvil para Barf Chile */
+
+  position: absolute;
+  width: 296px;
+  height: 50px;
+  left: 492px;
+  top: 398px;
+
+  /* Encabezado */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
+
+.ver1 {
+  /* Frame 4 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 293px;
+  height: 60px;
+  left: 82px;
+  top: 707px;
+
+  background: linear-gradient(258.57deg, #f55600 -33.03%, #103e84 91.48%);
+  border: 4px solid #ffffff;
+  box-shadow: 4px -6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.ver1Text {
+  /* Ver Trabajo */
+
+  width: 180px;
+  height: 30px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  border: 0px solid #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.listaBarf {
+  /* Perfil de usuario digital User Journey Map Arquitectura de información Bosquejado a papel y digital Estudios de usabilidad Prototipado de baja y alta fidelidad */
+
+  position: absolute;
+  width: 327px;
+  height: 126px;
+  left: 470px;
+  top: 470px;
+
+  /* Cuerpo 2 */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.textListaBarf {
+  /* Prototipo hifi */
+
+  position: absolute;
+  width: 274px;
+  height: 20px;
+  left: 489px;
+  top: 628px;
+
+  /* Cuerpo */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  border: 0px solid #000000;
+}
+
+.linkBarf {
+  /* https://encr.pw/FigmaMobilProtoBarf */
+
+  position: absolute;
+  width: 293px;
+  height: 18px;
+  left: 489px;
+  top: 648px;
+
+  /* Cuerpo 2 */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  border: 0px solid #000000;
+  cursor: pointer;
+}
+
+.verBarf {
+  /* Frame 4 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  gap: 10px;
+
+  position: absolute;
+  width: 293px;
+  height: 60px;
+  left: 492px;
+  top: 707px;
+
+  background: linear-gradient(258.57deg, #f55600 -33.03%, #103e84 91.48%);
+  border: 4px solid #ffffff;
+  box-shadow: 4px -6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.textVerBarf {
+  /* Ver Trabajo */
+
+  width: 180px;
+  height: 30px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  border: 0px solid #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.rectangle28 {
+  /* Rectangle 28 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 359px;
+  height: 621px;
+  left: 872px;
+  top: 172px;
+
+  /* Fondo 2 */
+  background: linear-gradient(161.72deg, #4a4a4a 27.41%, #b0b0b0 87.58%);
+  border: 1px solid #000000;
+  box-shadow: 5px -8px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.imagetv2 {
+  /* —Pngtree—tv screen material_7085071 1 */
+
+  position: absolute;
+  width: 175px;
+  height: 151.75px;
+  left: 898px;
+  top: 185px;
+
+  /* background: url(—Pngtree—tv screen material_7085071.png); */
+}
+
+.image62 {
+  /* image 62 */
+
+  position: absolute;
+  width: 153.2px;
+  height: 108.75px;
+  left: 910.24px;
+  top: 198.46px;
+
+  background: url(image.png);
+}
+
+.group95 {
+  /* Group 95 */
+
+  position: absolute;
+  width: 71px;
+  height: 102.66px;
+  left: 1086px;
+  top: 210.87px;
+}
+
+.image63 {
+  /* image 63 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 36px;
+  height: 79px;
+  left: 1170px;
+  top: 221.87px;
+
+  background: url(image.png);
+  border: 2px solid #151515;
+  border-radius: 4px;
+}
+
+.textTrabajo3 {
+  /* Sitio web adaptable y App Móbil para iniciativa de interes social Lagunapp */
+
+  position: absolute;
+  width: 318px;
+  height: 75px;
+  left: 899px;
+  top: 370px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.06em;
+
+  color: #ffffff;
+}
+
+.listTrabajo3 {
+  /* Perfil de usuario digital Descubrimiento de necesidades Arquitectura de información Bosquejado a papel y digital Estudios de usabilidad Prototipado de baja y alta fidelidad */
+
+  position: absolute;
+  width: 327px;
+  height: 126px;
+  left: 875px;
+  top: 470px;
+
+  /* Cuerpo 2 */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.textTrabajo3_2 {
+  /* Prototipo hifi */
+
+  position: absolute;
+  width: 274px;
+  height: 20px;
+  left: 899px;
+  top: 624px;
+
+  /* Cuerpo */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  border: 0px solid #000000;
+}
+
+.linkTrabajo3 {
+  /* https://encr.pw/FigmaMobilProtoBarf */
+
+  position: absolute;
+  width: 293px;
+  height: 18px;
+  left: 909px;
+  top: 648px;
+
+  /* Cuerpo 2 */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  border: 0px solid #000000;
+  cursor: pointer;
+}
+
+.verTrabajo3 {
+  /* Frame 5 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  gap: 10px;
+
+  position: absolute;
+  width: 293px;
+  height: 60px;
+  left: 909px;
+  top: 707px;
+
+  background: linear-gradient(258.57deg, #f55600 -33.03%, #103e84 91.48%);
+  border: 4px solid #ffffff;
+  box-shadow: 4px -6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.textVerTrabajo3 {
+  /* Ver Trabajo */
+
+  width: 180px;
+  height: 30px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  border: 0px solid #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

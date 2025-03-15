@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+
+.image1 {
+  position: absolute;
+  width: 448px;
+  height: 664px;
+  right: 52px;
+  top: 166px;
+
+  background: url(image);
+  border-radius: 210px;
+}
+
+.group88 {
+  /* Group 88 */
+
+  position: absolute;
+  width: 1014px;
+  height: 84px;
+  right: 0px;
+  top: 0px;
+}
+
+.frame3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 76px;
+
+  position: absolute;
+  left: 6.12%;
+  right: 5.7%;
+  top: 25.42%;
+  bottom: 16.25%;
+}
+
+.rectangle5 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #030102;
+  box-shadow: -1px 9px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 0px 20px;
+}
+
+.group91 {
+  position: absolute;
+  width: 754px;
+  height: 508.53px;
+  left: 60px;
+  top: 168px;
+}
+
+.inicio {
+  /* Inicio */
+
+  width: 55px;
+  height: 20px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+  cursor: pointer;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+}
+
+.line1 {
+  /* Line 1 */
+
+  width: 49px;
+  height: 0px;
+
+  border: 1px solid #ffffff;
+  transform: rotate(90deg);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.portafolio {
+  /* Portafolio */
+
+  width: 103px;
+  height: 20px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.line3 {
+  /* Line 3 */
+
+  width: 49px;
+  height: 0px;
+
+  border: 1px solid #ffffff;
+  transform: rotate(90deg);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.contacto {
+  /* Contacto */
+
+  width: 96px;
+  height: 20px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.line2 {
+  /* Line 2 */
+
+  width: 49px;
+  height: 0px;
+
+  border: 1px solid #ffffff;
+  transform: rotate(90deg);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+}
+
+.sobremi {
+  /* Sobre mi */
+
+  width: 96px;
+  height: 20px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 6;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.group91 {
+  /* Group 91 */
+
+  position: absolute;
+  width: 700px;
+  height: 446.53px;
+  left: 60px;
+  top: 230px;
+}
+
+.group1 {
+  /* Group 1 */
+
+  position: absolute;
+  width: 700px;
+  height: 90px;
+  left: 60px;
+  top: 230px;
+}
+
+.disenador {
+  /* Diseñador UX/UI Diseño de productos digitales */
+
+  position: absolute;
+  width: 700px;
+  height: 90px;
+  left: 60px;
+  top: 230px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+
+  color: #ffffff;
+}
+
+.estableciendo {
+  /* Estableciendo vínculos entre los usuarios y las soluciones que usted ofrece, creando experiencias digitales satisfactorias para todos. */
+
+  position: absolute;
+  width: 663px;
+  height: 120px;
+  left: 60px;
+  top: 342px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.frame1 {
+  /* Frame 1 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 238px;
+  height: 82px;
+  left: 60px;
+  top: 498px;
+
+  background: linear-gradient(258.57deg, #f55600 -33.03%, #103e84 91.48%);
+  border: 4px solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.textFrame1 {
+  /* Ver Portafolio */
+
+  width: 214px;
+  height: 30px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  border: 0px solid #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame4 {
+  /* Frame 4 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 278px;
+  height: 82px;
+  left: 371px;
+  top: 498px;
+
+  background: linear-gradient(258.57deg, #f55600 -33.03%, #103e84 91.48%);
+  border: 4px solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.textFrame4 {
+  /* Ver Curriculum */
+
+  width: 233px;
+  height: 30px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  border: 0px solid #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.image3 {
+  /* image 3 */
+
+  position: absolute;
+  width: 45.53px;
+  height: 45.53px;
+  left: 60px;
+  top: 631px;
+
+  background: url(.png), url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.image2 {
+  /* image 2 */
+
+  position: absolute;
+  width: 45.53px;
+  height: 45.53px;
+  left: 175px;
+  top: 631px;
+
+  background: url(.png), url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.image4 {
+  /* image 4 */
+
+  position: absolute;
+  width: 45.53px;
+  height: 45.53px;
+  left: 290px;
+  top: 631px;
+
+  background: url(.png), url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.image52 {
+  /* image 52 */
+
+  position: absolute;
+  width: 45.53px;
+  height: 45.53px;
+  left: 405px;
+  top: 631px;
+
+  background: url(.png), url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.image54 {
+  /* image 54 */
+
+  position: absolute;
+  width: 45.53px;
+  height: 45.53px;
+  left: 521px;
+  top: 631px;
+
+  background: url(.png), url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}

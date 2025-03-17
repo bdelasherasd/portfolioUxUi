@@ -37,55 +37,69 @@ const App = () => {
 
   return (
     <>
-      <div>
-        <div className="group88">
-          <div className="rectangle5"></div>
-          <div className="frame3">
-            <p className="inicio" onClick={handleClickInicio}>
-              Inicio
-            </p>
-            <div className="line1"></div>
-            <p className="portafolio" onClick={handleClickPortafolio}>
-              Portafolio
-            </p>
-            <div className="line3"></div>
-            <p className="contacto" onClick={handleClickInicio}>
-              Contacto
-            </p>
-            <div className="line2"></div>
-            <p className="sobremi" onClick={handleClickInicio}>
-              Sobre Mi
-            </p>
+      <div className="pageHome Frame_92">
+        <div className="Home">
+          <div className="frame91">
+            <div className="group91">
+              <div className="frame90">
+                <div className="group1">
+                  <div className="disenador">
+                    Diseñador UX/UI Diseño de productos digitales
+                  </div>
+                </div>
+
+                <div className="estableciendo">
+                  Estableciendo vínculos entre los usuarios y las soluciones que
+                  usted ofrece, creando experiencias digitales satisfactorias
+                  para todos.
+                </div>
+
+                <div className="frame_1">
+                  <div className="textFrame1" onClick={handleClickPortafolio}>
+                    Ver Portafolio
+                  </div>
+                </div>
+
+                <div className="frame_4">
+                  <div className="textFrame4" onClick={handleClickCv}>
+                    Ver Curriculum
+                  </div>
+                </div>
+
+                <section className="frame_89">
+                  <img className="image3" src={image3} />
+                  <img className="image2" src={image2} />
+                  <img className="image4" src={image4} />
+                  <img className="image52" src={image52} />
+                  <img className="image54" src={image54} />
+                </section>
+              </div>
+            </div>
+            <img className="image1" src={image1} />
+          </div>
+
+          <div className="group88">
+            <div className="rectangle5"></div>
+
+            <div className="frame3">
+              <p className="inicio" onClick={handleClickInicio}>
+                Inicio
+              </p>
+              <div className="line1"></div>
+              <p className="portafolio" onClick={handleClickPortafolio}>
+                Portafolio
+              </p>
+              <div className="line3"></div>
+              <p className="contacto" onClick={handleClickInicio}>
+                Contacto
+              </p>
+              <div className="line2"></div>
+              <p className="sobremi" onClick={handleClickInicio}>
+                Sobre Mi
+              </p>
+            </div>
           </div>
         </div>
-
-        <img className="image1" src={image1} />
-
-        <p className="disenador">
-          Diseñador UX/UI Diseño de productos digitales{" "}
-        </p>
-
-        <p className="estableciendo">
-          Estableciendo vínculos entre los usuarios y las soluciones que usted
-          ofrece, creando experiencias digitales satisfactorias para todos.
-        </p>
-
-        <div className="frame1">
-          <div className="textFrame1" onClick={handleClickPortafolio}>
-            Ver Portafolio
-          </div>
-        </div>
-        <div className="frame4">
-          <div className="textFrame4" onClick={handleClickCv}>
-            Ver Curriculum
-          </div>
-        </div>
-
-        <img className="image3" src={image3} />
-        <img className="image2" src={image2} />
-        <img className="image4" src={image4} />
-        <img className="image52" src={image52} />
-        <img className="image54" src={image54} />
       </div>
 
       {/* Modal (Popup) para el CV */}

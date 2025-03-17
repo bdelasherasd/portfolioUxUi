@@ -50,7 +50,7 @@ const portafolio = () => {
 
   return (
     <>
-      <div>
+      <div className="page portafolio_00">
         <div className="back-arrow" onClick={handleBackClick}>
           <img src={flechaatras} />
         </div>

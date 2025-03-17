@@ -1,27 +1,88 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 
-.image1 {
+@keyframes fadeInHome {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.pageHome {
+  animation: fadeInHome 0.5s ease-in-out;
+}
+
+.Frame_92 {
+  /* Frame 92 */
+
+  position: relative;
+  width: 1360px;
+  height: 832px;
+}
+
+.Home {
+  /* Home */
+
   position: absolute;
+  width: 1360px;
+  height: 832px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(266.63deg, #030102 40.5%, #7a7a7a 128.59%);
+}
+
+.image1 {
+  /* image 1 */
+
   width: 448px;
   height: 664px;
-  right: 52px;
-  top: 166px;
 
-  background: url(image);
+  background: url(image.png);
   border-radius: 210px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .group88 {
   /* Group 88 */
 
   position: absolute;
-  width: 1014px;
+  width: 1050px;
   height: 84px;
   right: 0px;
   top: 0px;
 }
 
+.frame_89 {
+  /* Frame 89 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 130px;
+  gap: 70px;
+
+  width: 507.64px;
+  height: 45.53px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
 .frame3 {
+  /* Frame 3 */
+
+  /* Auto layout */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -29,13 +90,15 @@
   gap: 76px;
 
   position: absolute;
-  left: 6.12%;
-  right: 5.7%;
+  left: 6.59%;
+  right: 6.18%;
   top: 25.42%;
   bottom: 16.25%;
 }
 
 .rectangle5 {
+  /* Rectangle 5 */
+
   position: absolute;
   left: 0%;
   right: 0%;
@@ -47,12 +110,28 @@
   border-radius: 0px 0px 0px 20px;
 }
 
+.group90 {
+  /* Group 90 */
+
+  width: 589px;
+  height: 82px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
 .group91 {
-  position: absolute;
-  width: 754px;
-  height: 508.53px;
-  left: 60px;
-  top: 168px;
+  /* Group 91 */
+
+  width: 700px;
+  height: 445.53px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .inicio {
@@ -69,15 +148,12 @@
   /* identical to box height */
 
   color: #ffffff;
-  cursor: pointer;
 
   /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
-
-  animation-timing-function: ease-out;
-  animation-duration: 300ms;
+  cursor: pointer;
 }
 
 .line1 {
@@ -191,24 +267,16 @@
   cursor: pointer;
 }
 
-.group91 {
-  /* Group 91 */
-
-  position: absolute;
-  width: 700px;
-  height: 446.53px;
-  left: 60px;
-  top: 230px;
-}
-
 .group1 {
   /* Group 1 */
 
-  position: absolute;
   width: 700px;
   height: 90px;
-  left: 60px;
-  top: 230px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .disenador {
@@ -217,8 +285,8 @@
   position: absolute;
   width: 700px;
   height: 90px;
-  left: 60px;
-  top: 230px;
+  left: 0px;
+  top: 0px;
 
   font-family: "Krona One";
   font-style: normal;
@@ -232,11 +300,8 @@
 .estableciendo {
   /* Estableciendo vínculos entre los usuarios y las soluciones que usted ofrece, creando experiencias digitales satisfactorias para todos. */
 
-  position: absolute;
   width: 663px;
   height: 120px;
-  left: 60px;
-  top: 342px;
 
   font-family: "Krona One";
   font-style: normal;
@@ -245,9 +310,49 @@
   line-height: 30px;
 
   color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
-.frame1 {
+.frame90 {
+  /* Frame 90 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 36px;
+
+  position: absolute;
+  width: 700px;
+  height: 445.53px;
+  left: 0px;
+  top: 109.24px;
+}
+
+.frame91 {
+  /* Frame 91 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+
+  position: absolute;
+  width: 1168px;
+  height: 664px;
+  left: 56px;
+  top: 114px;
+}
+
+.frame_1 {
   /* Frame 1 */
 
   box-sizing: border-box;
@@ -263,8 +368,8 @@
   position: absolute;
   width: 238px;
   height: 82px;
-  left: 60px;
-  top: 498px;
+  left: 0px;
+  top: 282px;
 
   background: linear-gradient(258.57deg, #f55600 -33.03%, #103e84 91.48%);
   border: 4px solid #ffffff;
@@ -296,7 +401,7 @@
   flex-grow: 0;
 }
 
-.frame4 {
+.frame_4 {
   /* Frame 4 */
 
   box-sizing: border-box;
@@ -312,13 +417,14 @@
   position: absolute;
   width: 278px;
   height: 82px;
-  left: 371px;
-  top: 498px;
+  left: 311px;
+  top: 282px;
 
   background: linear-gradient(258.57deg, #f55600 -33.03%, #103e84 91.48%);
   border: 4px solid #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+
   cursor: pointer;
 }
 
@@ -348,64 +454,74 @@
 .image3 {
   /* image 3 */
 
-  position: absolute;
   width: 45.53px;
   height: 45.53px;
-  left: 60px;
-  top: 631px;
 
   background: url(.png), url(image.png);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .image2 {
   /* image 2 */
 
-  position: absolute;
   width: 45.53px;
   height: 45.53px;
-  left: 175px;
-  top: 631px;
 
   background: url(.png), url(image.png);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .image4 {
   /* image 4 */
 
-  position: absolute;
   width: 45.53px;
   height: 45.53px;
-  left: 290px;
-  top: 631px;
 
   background: url(.png), url(image.png);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }
 
 .image52 {
   /* image 52 */
 
-  position: absolute;
   width: 45.53px;
   height: 45.53px;
-  left: 405px;
-  top: 631px;
 
   background: url(.png), url(image.png);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
 }
 
 .image54 {
   /* image 54 */
 
-  position: absolute;
   width: 45.53px;
   height: 45.53px;
-  left: 521px;
-  top: 631px;
 
   background: url(.png), url(image.png);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  /* Inside auto layout */
+  flex: none;
+  order: 4;
+  flex-grow: 0;
 }

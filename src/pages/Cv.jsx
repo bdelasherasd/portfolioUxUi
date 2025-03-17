@@ -8,7 +8,7 @@ const Cv = ({ openCv, setOpenCv }) => {
     setOpenCv(false);
   };
   return (
-    <div className="cv">
+    <div className="page cv">
       <img className="image55" onClick={handleClickCerrar} src={image55} />
       <img className="image53" src={image53} />
     </div>

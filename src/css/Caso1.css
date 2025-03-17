@@ -1,3 +1,28 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.caso1_00 {
+  /* Caso 1 */
+
+  position: relative;
+  width: 1360px;
+  height: 10486px;
+
+  background: linear-gradient(244.18deg, #030102 22.95%, #8a8a8a 156.45%);
+}
+
 .text1 {
   /* Sitio web adaptable para Cine Insomnia */
 
@@ -52,7 +77,7 @@
   position: absolute;
   width: 539px;
   height: 100px;
-  right: 649px;
+  right: 724px;
   top: 354px;
 
   font-family: "Krona One";
@@ -103,4 +128,298 @@
   /* identical to box height */
 
   color: #ffffff;
+}
+
+.Group_78 {
+  /* Group 78 */
+
+  position: absolute;
+  width: 538px;
+  height: 132px;
+  left: 68px;
+  top: 476px;
+}
+
+.el_problema {
+  /* El Problema */
+
+  position: absolute;
+  width: 143px;
+  height: 23px;
+  left: 76px;
+  top: 476px;
+  padding-top: 30px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.la_pagina {
+  /* La página no cuenta con sistema de compra de tickets. Ademas, los usuarios reportaron algunas incomodidades al explorar la cartelera, especialmente en móvil. */
+
+  position: absolute;
+  width: 538px;
+  height: 100px;
+  right: 724px;
+  top: 508px;
+  padding-top: 15px;
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.crear_un_sitio {
+  /* Crear un sitio web adaptable con sistema de compra de tickets para Cine Insomnia cuyo uso sea agradable, fácil y entretenido. */
+
+  position: absolute;
+  width: 538px;
+  height: 100px;
+  right: 744px;
+  top: 682px;
+
+  /* Encabezado */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
+
+.investigacion {
+  /* Investigación Previa */
+
+  position: absolute;
+  width: 482px;
+  height: 45px;
+  left: calc(50% - 522px / 2);
+  top: 891px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.image50_caso1 {
+  /* image 50 */
+
+  position: absolute;
+  width: 94.55px;
+  height: 199px;
+  left: 813px;
+  top: 555.31px;
+
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+  border-radius: 10px;
+}
+
+.image51_caso1 {
+  /* image 51 */
+
+  position: absolute;
+  width: 94.74px;
+  height: 200px;
+  left: 1023px;
+  top: 555.31px;
+
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+  border-radius: 10px;
+}
+
+.para_este {
+  /* Para este trabajo se realizaron dos investigaciones preliminares, y un estudio de usabilidad final. La primera investigación constó de una encuesta realizada a mas de 20 usuarios de Cine Insomnia de los cuales 5 fueron seleccionados para una entrevista. La investigación sirvió para establecer los principales Pain Points de los usuarios al navegar por la web de Insomnia, y establecer perfiles de usuarios. */
+
+  position: absolute;
+  width: 1174px;
+  height: 175px;
+  right: 133px;
+  top: 978px;
+
+  /* Encabezado */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.pain_points {
+  /* Pain Points */
+
+  position: absolute;
+  width: 193px;
+  height: 33px;
+  left: calc(50% - 233px / 2 + 0.5px);
+  top: 1236px;
+
+  /* Titulos 2 */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  /* identical to box height */
+  text-align: right;
+
+  color: #ffffff;
+}
+
+.rectangle1_caso1 {
+  /* Rectangle 1 */
+
+  position: absolute;
+  width: 232px;
+  height: 135px;
+  left: 174px;
+  top: 1376px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4.7px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.grupo80_caso1 {
+  /* Group 80 */
+
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 266px;
+  top: 1352px;
+}
+
+.elipse1_caso1 {
+  /* Ellipse 1 */
+
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 266px;
+  top: 1352px;
+  border-radius: 50%;
+
+  background: #d9d9d9;
+}
+
+.text1_caso1 {
+  /* 1 */
+
+  position: absolute;
+  width: 22px;
+  height: 36px;
+  left: 277px;
+  top: 1353px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: right;
+
+  color: #030102;
+}
+
+.es_necesario {
+  /* Es necesario poder comprar tickets online. */
+
+  position: absolute;
+  width: 213px;
+  height: 92px;
+  left: 183px;
+  top: 1407px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.rectangle2_caso1 {
+  /* Rectangle 2 */
+
+  position: absolute;
+  width: 232px;
+  height: 154px;
+  left: 544px;
+  top: 1377px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4.7px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.elipse2 {
+  /* Ellipse 1 */
+
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 636px;
+  top: 1353px;
+  border-radius: 50%;
+  background: #d9d9d9;
+}
+
+.text2_caso1 {
+  /* 2 */
+
+  position: absolute;
+  width: 22px;
+  height: 36px;
+  left: 643px;
+  top: 1352px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: right;
+
+  color: #030102;
+}
+
+.falta_inter {
+  /* Falta interacción entre usuarios y Cine insomnia (fidelización). */
+
+  position: absolute;
+  width: 213px;
+  height: 92px;
+  left: 553px;
+  top: 1413px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #000000;
 }

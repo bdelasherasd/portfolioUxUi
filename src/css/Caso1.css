@@ -423,3 +423,173 @@
 
   color: #000000;
 }
+
+.rectangle3_caso1 {
+  /* Rectangle 3 */
+
+  position: absolute;
+  width: 232px;
+  height: 238px;
+  left: 904px;
+  top: 1378px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4.7px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.elipse3 {
+  /* Ellipse 1 */
+
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 996px;
+  top: 1354px;
+
+  background: #d9d9d9;
+  border-radius: 50%;
+}
+
+.text3_caso1 {
+  /* 3 */
+
+  position: absolute;
+  width: 22px;
+  height: 36px;
+  left: 1003px;
+  top: 1353px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: right;
+
+  color: #030102;
+}
+
+.la_arquitectura {
+  /* La arquitectura del sitio no se ajusta a los estándares de la industria, tornándose confuso para algunos usuarios. */
+
+  position: absolute;
+  width: 213px;
+  height: 207px;
+  left: 913px;
+  top: 1409px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.persona {
+  /* Persona*: */
+
+  position: absolute;
+  width: 172px;
+  height: 33px;
+  left: calc(50% - 172px / 2 - 108px);
+  top: 1731px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.almendra {
+  /* Almendra */
+
+  position: absolute;
+  width: 193px;
+  height: 38px;
+  left: 677px;
+  top: 1729px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.diapo_persona {
+  /* Diapo Persona */
+
+  position: absolute;
+  width: 960px;
+  height: 540px;
+  left: calc(50% - 960px / 2 - 7px);
+  top: 1834px;
+
+  background: url(image.png);
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.planteamiento {
+  /* Planteamiento del problema: “Como profesional/estudiante ocupado quiero poder comprar entradas para el cine desde mi móvil para poder organizar mi visita con antelación y mejor, y no perder funciones de mi interés.” */
+
+  position: absolute;
+  width: 974px;
+  height: 69px;
+  left: calc(50% - 974px / 2 - 7px);
+  top: 2408px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.mapadesitio {
+  /* Mapa de sitio y bosquejos en papel */
+
+  position: absolute;
+  width: 829px;
+  height: 45px;
+  left: calc(50% - 829px / 2 - 6.5px);
+  top: 2578px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.slide {
+  /* Slide 16_9 - 1 1 */
+
+  position: absolute;
+  width: 1090.22px;
+  height: 628px;
+  left: 88px;
+  top: 2679px;
+
+  background: url(Slide 16_9 - 1.png);
+}

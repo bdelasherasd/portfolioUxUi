@@ -5,6 +5,9 @@ import flechaatras from "../assets/arrow_back.svg";
 import image49 from "../assets/image 49.svg";
 import image50 from "../assets/image 50.svg";
 import image51 from "../assets/image 51.svg";
+import diapo_persona from "../assets/Diapo Persona.png";
+import slide from "../assets/Slide 16_9 - 1 1.png";
+
 import tv from "../assets/pngtree-tv-screen-material-70850711.png";
 import { useEffect } from "react";
 
@@ -112,6 +115,27 @@ const Caso1 = () => {
         <div className="falta_inter">
           Falta interacción entre usuarios y Cine insomnia (fidelización).
         </div>
+
+        <div className="rectangle3_caso1"></div>
+        <div className="elipse3"></div>
+        <div className="text3_caso1">3</div>
+        <div className="la_arquitectura">
+          La arquitectura del sitio no se ajusta a los estándares de la
+          industria, tornándose confuso para algunos usuarios.
+        </div>
+
+        <div className="persona">Persona*:</div>
+        <div className="almendra">Almendra</div>
+
+        <img className="diapo_persona" src={diapo_persona} />
+        <div className="planteamiento">
+          Planteamiento del problema: “Como profesional/estudiante ocupado
+          quiero poder comprar entradas para el cine desde mi móvil para poder
+          organizar mi visita con antelación y mejor, y no perder funciones de
+          mi interés.”
+        </div>
+        <div className="mapadesitio">Mapa de sitio y bosquejos en papel</div>
+        <img className="slide" src={slide} />
       </div>
     </>
   );

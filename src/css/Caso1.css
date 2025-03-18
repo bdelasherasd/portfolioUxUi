@@ -590,6 +590,210 @@
   height: 628px;
   left: 88px;
   top: 2679px;
+}
 
-  background: url(Slide 16_9 - 1.png);
+.Bosquejadodigital {
+  /* Bosquejado digital */
+
+  position: absolute;
+  width: 441px;
+  height: 45px;
+  left: calc(50% - 458px / 2);
+  top: 3441px;
+
+  /* Titulos */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.frame6 {
+  /* Frame 6 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 357px;
+  height: 118px;
+  left: 93px;
+  top: 3612px;
+
+  /* Fondo */
+  background: linear-gradient(
+    194.83deg,
+    #030102 13.3%,
+    #1e1d1d 47.98%,
+    #8a8a8a 89.53%
+  );
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+.textoFrame6 {
+  /* Al realizar los bosquejos digitales la principal atención fue responder a la necesidad de comprar tickets online para todo tipo de usuario */
+
+  width: 337px;
+  height: 98px;
+
+  /* Cuerpo */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.bosquejo {
+  /* Bosuejo digital */
+
+  position: absolute;
+  width: 549px;
+  height: 392px;
+  left: 568px;
+  top: 3577px;
+
+  background: url(asdasd.png);
+  border-radius: 12px;
+}
+
+.Arrow27 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 29px;
+  height: 96px;
+  left: 1012px;
+  top: 3914px;
+  border: 0px solid #ffffff;
+}
+
+.Arrow28 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 104.69px;
+  left: 485px;
+  top: 3802px;
+  border: 0px solid #ffffff;
+  transform: rotate(-2.85deg);
+}
+
+.textArrow28 {
+  /* Comprar entradas como pop up desde cartelera, agilizando proceso de compra */
+
+  position: absolute;
+  width: 199px;
+  height: 72px;
+  left: 286px;
+  top: 3840px;
+
+  /* Cuerpo 2 */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.textArrow27 {
+  /* Sistema fácil e intuitivo para comprar entradas */
+
+  position: absolute;
+  width: 144px;
+  height: 72px;
+  left: 955px;
+  top: 4006px;
+
+  /* Cuerpo 2 */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.usabilidad {
+  /* Estudio de usabilidad: Prototipo de baja fidelidad */
+
+  position: absolute;
+  width: 847px;
+  height: 90px;
+  left: calc(50% - 847px / 2 - 0.5px);
+  top: 4211px;
+
+  /* Titulos */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.lleve {
+  /* LLevé a cabo un estudio de usabilidad del prototipo de baja fidelidad. El estudio buscó determinar el formato de organización de la cartelera más cómodo para todos los usuarios, y determinar los principales pain points del proceso de compra de tickets. */
+
+  position: absolute;
+  width: 964px;
+  height: 100px;
+  left: calc(50% - 964px / 2);
+  top: 4388px;
+
+  /* Encabezado */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.descubrimiento {
+  /* Descubrimientos */
+
+  position: absolute;
+  width: 303px;
+  height: 33px;
+  left: 134px;
+  top: 4593px;
+
+  /* Titulos 2 */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
 }

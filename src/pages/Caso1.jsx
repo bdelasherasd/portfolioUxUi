@@ -7,6 +7,9 @@ import image50 from "../assets/image 50.svg";
 import image51 from "../assets/image 51.svg";
 import diapo_persona from "../assets/Diapo Persona.png";
 import slide from "../assets/Slide 16_9 - 1 1.png";
+import bosquejo from "../assets/Bosuejo digital.png";
+import Arrow27 from "../assets/Arrow 27.png";
+import Arrow28 from "../assets/Arrow 28.png";
 
 import tv from "../assets/pngtree-tv-screen-material-70850711.png";
 import { useEffect } from "react";
@@ -136,7 +139,35 @@ const Caso1 = () => {
         </div>
         <div className="mapadesitio">Mapa de sitio y bosquejos en papel</div>
         <img className="slide" src={slide} />
+        <div className="Bosquejadodigital">Bosquejado Digital</div>
+        <div className="frame6">
+          <div className="textoFrame6">
+            Al realizar los bosquejos digitales la principal atención fue
+            responder a la necesidad de comprar tickets online para todo tipo de
+            usuario
+          </div>
+        </div>
       </div>
+      <img className="bosquejo" src={bosquejo} />
+      <img className="Arrow27" src={Arrow27} />
+      <img className="Arrow28" src={Arrow28} />
+      <div className="textArrow28">
+        Comprar entradas como pop up desde cartelera, agilizando proceso de
+        compra
+      </div>
+      <div className="textArrow27">
+        Sistema fácil e intuitivo para comprar entradas
+      </div>
+      <div className="usabilidad">
+        Estudio de usabilidad: Prototipo de baja fidelidad
+      </div>
+      <div className="lleve">
+        LLevé a cabo un estudio de usabilidad del prototipo de baja fidelidad.
+        El estudio buscó determinar el formato de organización de la cartelera
+        más cómodo para todos los usuarios, y determinar los principales pain
+        points del proceso de compra de tickets.{" "}
+      </div>
+      <div className="descubrimiento">Descubrimientos</div>
     </>
   );
 };

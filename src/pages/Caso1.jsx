@@ -168,6 +168,21 @@ const Caso1 = () => {
         points del proceso de compra de tickets.{" "}
       </div>
       <div className="descubrimiento">Descubrimientos</div>
+
+      <div className="r1el1"></div>
+      <div className="elipseDesc1"></div>
+      <div className="t1el1">1</div>
+      <div className="textor1">
+        Los participantes prefieren ver la cartelera por películas en vez de
+        calendario
+      </div>
+
+      <div className="r1el2"></div>
+      <div className="elipseDesc2"></div>
+      <div className="t1el2">2</div>
+      <div className="textor2">
+        El sistema de compras fue comprendido por todos los participantes
+      </div>
     </>
   );
 };

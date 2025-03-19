@@ -797,3 +797,133 @@
 
   color: #ffffff;
 }
+
+.elipseDesc1 {
+  /* Ellipse 1 */
+
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 331px;
+  top: 4690px;
+  border-radius: 50%;
+  background: #d9d9d9;
+}
+
+.t1el1 {
+  /* 1 */
+
+  position: absolute;
+  width: 22px;
+  height: 36px;
+  left: 344px;
+  top: 4690px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: right;
+
+  color: #000000;
+}
+
+.r1el1 {
+  /* Rectangle 2 */
+
+  position: absolute;
+  width: 501px;
+  height: 154px;
+  left: 108px;
+  top: 4714px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4.7px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.textor1 {
+  /* Los participantes prefieren ver la cartelera por películas en vez de calendario */
+
+  position: absolute;
+  width: 450px;
+  height: 75px;
+  left: 134px;
+  top: 4759px;
+
+  /* Encabezado */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.elipseDesc2 {
+  /* Ellipse 1 */
+
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 890px;
+  top: 4690px;
+  border-radius: 50%;
+  background: #d9d9d9;
+}
+
+.t1el2 {
+  /* 1 */
+
+  position: absolute;
+  width: 22px;
+  height: 36px;
+  left: 900px;
+  top: 4690px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: right;
+
+  color: #000000;
+}
+
+.r1el2 {
+  /* Rectangle 2 */
+
+  position: absolute;
+  width: 501px;
+  height: 154px;
+  left: 667px;
+  top: 4714px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4.7px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.textor2 {
+  /* Los participantes prefieren ver la cartelera por películas en vez de calendario */
+
+  position: absolute;
+  width: 450px;
+  height: 75px;
+  left: 693px;
+  top: 4759px;
+
+  /* Encabezado */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #000000;
+}

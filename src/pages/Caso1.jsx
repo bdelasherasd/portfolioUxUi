@@ -10,6 +10,13 @@ import slide from "../assets/Slide 16_9 - 1 1.png";
 import bosquejo from "../assets/Bosuejo digital.png";
 import Arrow27 from "../assets/Arrow 27.png";
 import Arrow28 from "../assets/Arrow 28.png";
+import group109 from "../assets/Group 109.png";
+import group110 from "../assets/Group 110.png";
+import frame7 from "../assets/Frame 7.png";
+import comprar from "../assets/Comprar entradas 1.png";
+import frame8 from "../assets/Frame 8.png";
+import group120 from "../assets/Group 120.png";
+import group121 from "../assets/Group 121.png";
 
 import tv from "../assets/pngtree-tv-screen-material-70850711.png";
 import { useEffect } from "react";
@@ -147,41 +154,86 @@ const Caso1 = () => {
             usuario
           </div>
         </div>
-      </div>
-      <img className="bosquejo" src={bosquejo} />
-      <img className="Arrow27" src={Arrow27} />
-      <img className="Arrow28" src={Arrow28} />
-      <div className="textArrow28">
-        Comprar entradas como pop up desde cartelera, agilizando proceso de
-        compra
-      </div>
-      <div className="textArrow27">
-        Sistema fácil e intuitivo para comprar entradas
-      </div>
-      <div className="usabilidad">
-        Estudio de usabilidad: Prototipo de baja fidelidad
-      </div>
-      <div className="lleve">
-        LLevé a cabo un estudio de usabilidad del prototipo de baja fidelidad.
-        El estudio buscó determinar el formato de organización de la cartelera
-        más cómodo para todos los usuarios, y determinar los principales pain
-        points del proceso de compra de tickets.{" "}
-      </div>
-      <div className="descubrimiento">Descubrimientos</div>
 
-      <div className="r1el1"></div>
-      <div className="elipseDesc1"></div>
-      <div className="t1el1">1</div>
-      <div className="textor1">
-        Los participantes prefieren ver la cartelera por películas en vez de
-        calendario
-      </div>
+        <img className="bosquejo" src={bosquejo} />
+        <img className="Arrow27" src={Arrow27} />
+        <img className="Arrow28" src={Arrow28} />
+        <div className="textArrow28">
+          Comprar entradas como pop up desde cartelera, agilizando proceso de
+          compra
+        </div>
+        <div className="textArrow27">
+          Sistema fácil e intuitivo para comprar entradas
+        </div>
+        <div className="usabilidad">
+          Estudio de usabilidad: Prototipo de baja fidelidad
+        </div>
+        <div className="lleve">
+          LLevé a cabo un estudio de usabilidad del prototipo de baja fidelidad.
+          El estudio buscó determinar el formato de organización de la cartelera
+          más cómodo para todos los usuarios, y determinar los principales pain
+          points del proceso de compra de tickets.{" "}
+        </div>
+        <div className="descubrimiento">Descubrimientos</div>
 
-      <div className="r1el2"></div>
-      <div className="elipseDesc2"></div>
-      <div className="t1el2">2</div>
-      <div className="textor2">
-        El sistema de compras fue comprendido por todos los participantes
+        <div className="r1el1"></div>
+        <div className="elipseDesc1"></div>
+        <div className="t1el1">1</div>
+        <div className="textor1">
+          Los participantes prefieren ver la cartelera por películas en vez de
+          calendario
+        </div>
+
+        <div className="r1el2"></div>
+        <div className="elipseDesc2"></div>
+        <div className="t1el2">2</div>
+        <div className="textor2">
+          El sistema de compras fue comprendido por todos los participantes
+        </div>
+
+        <div className="rectangle4_c1"></div>
+        <div className="group81_c1"></div>
+        <div className="elipse4_caso1"></div>
+        <div className="tres_caso1">3</div>
+        <div className="texto5_caso1">
+          En general, los usuarios consideraron que el espacio podría usarse más
+        </div>
+
+        <div className="rectangle5_c1"></div>
+        <div className="elipse5_caso1"></div>
+        <div className="cuatro">4</div>
+        <div className="texto6_caso1">
+          El funcionamiento de la boletería fue aceptado por participantes
+        </div>
+
+        <div className="rect6_caso1"></div>
+        <div className="elip6_caso1"></div>
+        <div className="cinco">5</div>
+        <div className="texto7_c1">
+          Algunos usuarios sienten que el proceso es demasiado rápido
+        </div>
+
+        <div className="rect7_c1"></div>
+        <div className="elip7_c1"></div>
+        <div className="seis">6</div>
+        <div className="texto8_c1">
+          Todos los participantes del estudio usarían la app
+        </div>
+        <div className="texto9">Refinando el diseño</div>
+        <img className="group109" src={group109} />
+        <img className="group110" src={group110} />
+
+        <div className="texto10">
+          Estudio de usabilidad: Prototipo de alta fidelidad
+        </div>
+        <img className="frame7" src={frame7} />
+        <img className="comprar" src={comprar} />
+        <img className="frame8" src={frame8} />
+        <img className="group120" src={group120} />
+        <img className="group121" src={group121} />
+        <div className="back-arrowBottom" onClick={handleBackClick}>
+          <img src={flechaatras} />
+        </div>
       </div>
     </>
   );

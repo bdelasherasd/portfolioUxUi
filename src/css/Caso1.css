@@ -927,3 +927,412 @@
 
   color: #000000;
 }
+
+.rectangle4_c1 {
+  /* Rectangle 2 */
+
+  position: absolute;
+  width: 501px;
+  height: 154px;
+  left: 108px;
+  top: 4934px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4.7px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.group81_c1 {
+  /* Group 81 */
+
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 331px;
+  top: 4910px;
+}
+
+.elipse4_caso1 {
+  /* Ellipse 1 */
+
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 331px;
+  top: 4910px;
+  border-radius: 50%;
+  background: #d9d9d9;
+}
+
+.tres_caso1 {
+  /* 3 */
+
+  position: absolute;
+  width: 22px;
+  height: 36px;
+  left: 338px;
+  top: 4910px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: right;
+
+  color: #000000;
+}
+
+.texto5_caso1 {
+  /* En general, los usuarios consideraron que el espacio podría usarse más */
+
+  position: absolute;
+  width: 450px;
+  height: 75px;
+  left: 134px;
+  top: 4973px;
+
+  /* Encabezado */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.rectangle5_c1 {
+  /* Rectangle 2 */
+
+  position: absolute;
+  width: 501px;
+  height: 154px;
+  left: 667px;
+  top: 4934px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4.7px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.elipse5_caso1 {
+  /* Ellipse 1 */
+
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 890px;
+  top: 4910px;
+  border-radius: 50%;
+  background: #d9d9d9;
+}
+
+.cuatro {
+  /* 4 */
+
+  position: absolute;
+  width: 22px;
+  height: 36px;
+  left: 896px;
+  top: 4910px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: right;
+
+  color: #000000;
+}
+
+.texto6_caso1 {
+  /* El funcionamiento de la boletería fue aceptado por participantes */
+
+  position: absolute;
+  width: 450px;
+  height: 50px;
+  left: 695px;
+  top: 4986px;
+
+  /* Encabezado */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.rect6_caso1 {
+  /* Rectangle 2 */
+
+  position: absolute;
+  width: 501px;
+  height: 154px;
+  left: 108px;
+  top: 5154px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4.7px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.elip6_caso1 {
+  /* Ellipse 1 */
+
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 331px;
+  top: 5130px;
+
+  background: #d9d9d9;
+  border-radius: 50%;
+}
+
+.cinco {
+  /* 5 */
+
+  position: absolute;
+  width: 22px;
+  height: 36px;
+  left: 338px;
+  top: 5130px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: right;
+
+  color: #000000;
+}
+
+.texto7_c1 {
+  /* Algunos usuarios sienten que el proceso es demasiado rápido */
+
+  position: absolute;
+  width: 450px;
+  height: 50px;
+  left: 134px;
+  top: 5211px;
+
+  /* Encabezado */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.rect7_c1 {
+  /* Rectangle 2 */
+
+  position: absolute;
+  width: 501px;
+  height: 154px;
+  left: 667px;
+  top: 5154px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4.7px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.elip7_c1 {
+  /* Ellipse 1 */
+
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 890px;
+  top: 5130px;
+
+  background: #d9d9d9;
+}
+
+.seis {
+  /* 6 */
+
+  position: absolute;
+  width: 22px;
+  height: 36px;
+  left: 898px;
+  top: 5130px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: right;
+
+  color: #000000;
+}
+
+.texto8_c1 {
+  /* Todos los participantes del estudio usarían la app */
+
+  position: absolute;
+  width: 450px;
+  height: 50px;
+  left: 693px;
+  top: 5206px;
+
+  /* Encabezado */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.texto9 {
+  /* Refinando el diseño */
+
+  position: absolute;
+  width: 354px;
+  height: 33px;
+  left: 117px;
+  top: 5413px;
+
+  /* Titulos 2 */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.group109 {
+  /* Group 109 */
+
+  position: absolute;
+  width: 463.54px;
+  height: 431px;
+  left: 117px;
+  top: 5483px;
+}
+
+.group110 {
+  /* Group 110 */
+
+  position: absolute;
+  width: 491.84px;
+  height: 431px;
+  left: 670px;
+  top: 5483px;
+}
+
+.texto10 {
+  /* Estudio de usabilidad: Prototipo de alta fidelidad */
+
+  position: absolute;
+  width: 847px;
+  height: 90px;
+  left: calc(50% - 847px / 2 - 0.5px);
+  top: 6040px;
+
+  /* Titulos */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.frame7 {
+  /* Frame 7 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  padding: 0px;
+  gap: 173px;
+
+  position: absolute;
+  width: 1118px;
+  height: 2325px;
+  left: 81px;
+  top: 6256px;
+}
+
+.comprar {
+  /* Comprar entradas 1 */
+
+  position: absolute;
+  width: 825.51px;
+  height: 561px;
+  left: 227px;
+  top: 8625px;
+}
+
+.frame8 {
+  /* Frame 8 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 45px;
+
+  position: absolute;
+  width: 1110px;
+  height: 179px;
+  left: calc(50% - 1110px / 2);
+  top: 9371px;
+}
+
+.group120 {
+  /* Group 120 */
+
+  position: absolute;
+  width: 484.67px;
+  height: 443px;
+  left: 85px;
+  top: 9637px;
+}
+.group121 {
+  /* Group 121 */
+
+  position: absolute;
+  width: 339px;
+  height: 423px;
+  left: 771px;
+  top: 9657px;
+}
+
+.back-arrowBottom {
+  /* arrow_back */
+
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 20px;
+  top: 10195px;
+  cursor: pointer;
+}

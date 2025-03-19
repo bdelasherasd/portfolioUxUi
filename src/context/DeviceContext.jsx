@@ -7,17 +7,19 @@ const DeviceContext = createContext();
 export const DeviceProvider = ({ children }) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1240);
 
+  const [counter, setCounter] = useState(0);
+
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 1240);
     };
-
+    setCounter(counter + 1);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
-    <DeviceContext.Provider value={{ isMobile }}>
+    <DeviceContext.Provider value={{ isMobile, counter }}>
       {children}
     </DeviceContext.Provider>
   );

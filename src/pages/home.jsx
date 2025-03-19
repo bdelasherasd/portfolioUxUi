@@ -2,8 +2,9 @@ import "../css/home.css";
 import "../css/Dialog.css";
 import "../css/animacionRight.css";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Cv from "./Cv";
+import { useDevice } from "../context/DeviceContext";
 
 import image1 from "../assets/image1.png";
 import image3 from "../assets/image3.png";
@@ -36,9 +37,19 @@ const App = () => {
     setOpenCv(true);
   };
 
+  const { isMobile, counter } = useDevice();
+
+  console.log("counter", counter);
+
+  const [primerRenderizado, setPrimerRenderizado] = useState(false);
+
+  useEffect(() => {
+    counter === 0 ? setPrimerRenderizado(true) : setPrimerRenderizado(false);
+  }, []);
+  const homeClass = `Frame_92 ${primerRenderizado ? "pageHome" : "pageRight"}`;
   return (
     <>
-      <div className="pageRight Frame_92">
+      <div className={homeClass}>
         <div className="Home">
           <div className="frame91">
             <div className="group91">

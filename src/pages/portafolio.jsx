@@ -1,3 +1,5 @@
+import "../css/animacionLeft.css";
+
 import "../css/home.css";
 import "../css/portafolio.css";
 import { useNavigate } from "react-router-dom";
@@ -50,7 +52,7 @@ const portafolio = () => {
 
   return (
     <>
-      <div className="page portafolio_00">
+      <div className="pageLeft portafolio_00">
         <div className="back-arrow" onClick={handleBackClick}>
           <img src={flechaatras} />
         </div>

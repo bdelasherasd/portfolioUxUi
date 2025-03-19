@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 
-@keyframes fadeInHome {
+/* @keyframes fadeInHome {
   from {
     opacity: 0;
     transform: translateX(20px);
@@ -13,7 +13,7 @@
 
 .pageHome {
   animation: fadeInHome 0.5s ease-in-out;
-}
+} */
 
 .Frame_92 {
   /* Frame 92 */

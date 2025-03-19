@@ -1,5 +1,6 @@
 import "../css/home.css";
 import "../css/Dialog.css";
+import "../css/animacionRight.css";
 
 import { useState } from "react";
 import Cv from "./Cv";
@@ -37,7 +38,7 @@ const App = () => {
 
   return (
     <>
-      <div className="pageHome Frame_92">
+      <div className="pageRight Frame_92">
         <div className="Home">
           <div className="frame91">
             <div className="group91">

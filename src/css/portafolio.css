@@ -1,4 +1,4 @@
-@keyframes fadeIn {
+/* @keyframes fadeIn {
   from {
     opacity: 0;
     transform: translateY(20px);
@@ -11,7 +11,7 @@
 
 .page {
   animation: fadeIn 0.5s ease-in-out;
-}
+} */
 
 .portafolio_00 {
   /* Portafolio */

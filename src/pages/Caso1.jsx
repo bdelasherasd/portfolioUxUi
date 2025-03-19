@@ -1,6 +1,7 @@
 import "../css/portafolio.css";
 import "../css/Caso1.css";
 import { useNavigate } from "react-router-dom";
+
 import flechaatras from "../assets/arrow_back.svg";
 import image49 from "../assets/image 49.svg";
 import image50 from "../assets/image 50.svg";

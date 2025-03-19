@@ -4,6 +4,7 @@ import RootLayout from "../layout/RootLayout";
 import Home from "../pages/home";
 import Portafolio from "../pages/portafolio";
 import Caso1 from "../pages/Caso1";
+import Caso2 from "../pages/Caso2";
 
 export const router = createBrowserRouter([
   {
@@ -13,6 +14,7 @@ export const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "/Portafolio", element: <Portafolio /> },
       { path: "/Caso1", element: <Caso1 /> },
+      { path: "/Caso2", element: <Caso2 /> },
     ],
   },
 ]);

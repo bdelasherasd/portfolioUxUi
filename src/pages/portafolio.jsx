@@ -15,7 +15,7 @@ import image62 from "../assets/image 62.png";
 import group95 from "../assets/Group 95.png";
 import image63 from "../assets/image 63.png";
 
-const portafolio = () => {
+const Portafolio = () => {
   const navigate = useNavigate();
 
   const handleClickInicio = () => {
@@ -33,6 +33,11 @@ const portafolio = () => {
   const handleClickCaso1 = () => {
     console.log("Caso1");
     navigate("/Caso1");
+  };
+
+  const handleClickCaso2 = () => {
+    console.log("Caso2");
+    navigate("/Caso2");
   };
 
   const handleLink1 = () => {
@@ -141,7 +146,7 @@ const portafolio = () => {
           https://encr.pw/FigmaMobilPr...
         </div>
 
-        <div className="verBarf" onClick={handleLink4}>
+        <div className="verBarf" onClick={handleClickCaso2}>
           <div className="textVerBarf">Ver Trabajo</div>
         </div>
 
@@ -181,4 +186,4 @@ const portafolio = () => {
   );
 };
 
-export default portafolio;
+export default Portafolio;

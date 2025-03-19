@@ -1,0 +1,54 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.caso2_00 {
+  /* Caso 2 */
+
+  position: relative;
+  width: 1360px;
+  height: 15005px;
+
+  background: linear-gradient(244.18deg, #030102 22.95%, #8a8a8a 156.45%);
+}
+
+.texto01Caso2 {
+  /* App Móvil para Barf Chile */
+
+  position: absolute;
+  width: 609px;
+  height: 45px;
+  left: 68px;
+  top: 193px;
+
+  /* Titulos */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.group122 {
+  /* Group 122 */
+
+  position: absolute;
+  width: 343.25px;
+  height: 630px;
+  left: 823px;
+  top: 197px;
+}

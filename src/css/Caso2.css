@@ -542,3 +542,262 @@
   left: 204px;
   top: 6648px;
 }
+
+.flecha02 {
+  /* Arrow 32 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 170px;
+  height: 30px;
+  left: 555px;
+  top: 6697px;
+
+  border: 0px solid #ffffff;
+}
+
+.image75 {
+  /* image 75 */
+
+  position: absolute;
+  width: 279px;
+  height: 621px;
+  left: 794px;
+  top: 6648px;
+}
+
+.texto20 {
+  /* De acuerdo con las conclusiones del estudio de usabilidad, se llevaron a cabo cambios para guiar la atención del usuario al menú sandwish mediante un cambio de apariencia y agrandando el menú. Además de los cambios sugeridos al funcionamiento del cesto de compras y otros detalles. */
+
+  position: absolute;
+  width: 202px;
+  height: 420px;
+  left: 539px;
+  top: 6791px;
+
+  /* Cuerpo */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.texto21 {
+  /* Antes de estudio de usabilidad */
+
+  position: absolute;
+  width: 323px;
+  height: 20px;
+  left: 182px;
+  top: 7274px;
+
+  /* Cuerpo */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.texto22 {
+  /* Después de estudio de usabilidad */
+
+  position: absolute;
+  width: 354px;
+  height: 20px;
+  left: 757px;
+  top: 7274px;
+
+  /* Cuerpo */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.texto23 {
+  /* Estudio de usabilidad: Prototipo de alta fidelidad */
+
+  position: absolute;
+  width: 847px;
+  height: 90px;
+  left: calc(50% - 847px / 2 + 0.5px);
+  top: 7419px;
+
+  /* Titulos */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.group119 {
+  /* Group 119 */
+
+  position: absolute;
+  width: 501px;
+  height: 365px;
+  left: 140px;
+  top: 7704px;
+}
+
+.frame93 {
+  /* Frame 93 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0px;
+  gap: 74px 186px;
+
+  position: absolute;
+  width: 1078px;
+  height: 5845px;
+  left: 102px;
+  top: 8007px;
+}
+
+.texto24 {
+  /* Consideraciones de usabilidad */
+
+  position: absolute;
+  width: 523px;
+  height: 33px;
+  left: 378px;
+  top: 13930px;
+
+  /* Titulos 2 */
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.frame8_2 {
+  /* Frame 8 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 45px;
+
+  position: absolute;
+  width: 1110px;
+  height: 179px;
+  left: calc(50% - 1110px / 2);
+  top: 14039px;
+}
+
+.image261 {
+  /* image 61 */
+
+  position: absolute;
+  width: 209px;
+  height: 443px;
+  left: 213px;
+  top: 14294px;
+
+  border-radius: 20px;
+}
+
+.image260 {
+  /* image 60 */
+
+  position: absolute;
+  width: 208.77px;
+  height: 446px;
+  left: 537px;
+  top: 14294px;
+
+  border-radius: 20px;
+}
+
+.image262 {
+  /* Case Study BarfChile - Bernardo de las Heras 1 */
+
+  position: absolute;
+  width: 206.19px;
+  height: 437px;
+  left: 861px;
+  top: 14294px;
+
+  border-radius: 20px;
+}
+
+.frame207 {
+  /* Frame 7 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 854px;
+  height: 82px;
+  left: 213px;
+  top: 14830px;
+
+  /* Boton */
+  background: linear-gradient(258.57deg, #f55600 -33.03%, #103e84 91.48%);
+  border: 4px solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.texto25 {
+  /* Ver prototipo Hifi */
+
+  width: 264px;
+  height: 30px;
+
+  font-family: "Krona One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  /*border: 1px solid #000000;*/
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

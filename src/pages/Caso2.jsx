@@ -11,10 +11,18 @@ import group87 from "../assets/Group 87.png";
 import personacaso2 from "../assets/PersonaCaso2.png";
 import UserJourneyMap from "../assets/UserJourneyMap.png";
 import frame92 from "../assets/Frame 92.png";
+import frame93 from "../assets/Frame 93.png";
+import frame8 from "../assets/Frame 8_2.png";
 import image74 from "../assets/image 74.png";
+import image75 from "../assets/image 75.png";
 import image76 from "../assets/image 76.png";
 import flecha01 from "../assets/Arrow 30.png";
+import flecha02 from "../assets/Arrow 32.png";
 import group108 from "../assets/Group 108.png";
+import group119 from "../assets/Group 119.png";
+import image260 from "../assets/image 260.svg";
+import image261 from "../assets/image 261.svg";
+import image262 from "../assets/image 262.svg";
 
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
@@ -141,6 +149,30 @@ const Caso2 = () => {
         <img className="group108" src={group108} />
         <div className="texto19">Refinando el diseño</div>
         <img className="image76" src={image76} />
+        <img className="flecha02" src={flecha02} />
+        <img className="image75" src={image75} />
+        <div className="texto20">
+          De acuerdo con las conclusiones del estudio de usabilidad, se llevaron
+          a cabo cambios para guiar la atención del usuario al menú sandwish
+          mediante un cambio de apariencia y agrandando el menú. Además de los
+          cambios sugeridos al funcionamiento del cesto de compras y otros
+          detalles.
+        </div>
+        <div className="texto21">Antes de estudio de usabilidad</div>
+        <div className="texto22">Después de estudio de usabilidad</div>
+        <div className="texto23">
+          Estudio de usabilidad: Prototipo de alta fidelidad
+        </div>
+        <img className="group119" src={group119} />
+        <img className="frame93" src={frame93} />
+        <div className="texto24">Consideraciones de usabilidad</div>
+        <img className="frame8_2" src={frame8} />
+        <img className="image261" src={image261} />
+        <img className="image260" src={image260} />
+        <img className="image262" src={image262} />
+        <div className="frame207">
+          <div className="texto25">Ver prototipo Hifi</div>
+        </div>
       </div>
     </>
   );

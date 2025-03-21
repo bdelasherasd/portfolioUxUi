@@ -224,7 +224,7 @@ const Caso1 = () => {
         <img className="group109" src={group109} />
         <img className="group110" src={group110} />
 
-        <div className="texto10">
+        <div className="texto10c1">
           Estudio de usabilidad: Prototipo de alta fidelidad
         </div>
         <img className="frame7" src={frame7} />
